@@ -29,7 +29,7 @@
         }
     
         .pics_space {
-            margin-top: 20px;
+            margin-bottom: 20px;
 
         }
 
@@ -37,13 +37,16 @@
             align-items: center;
 
         }
+        .mt-0 {
+  margin-top: 20px !important;
+}
     </style>
   
   </head>
-     <body class="p-3 m-0 border-0 bd-example">
+
          <!--navbar-->
-        <div class="position-sticky">
-    <nav class="navbar navbar-expand-lg bg-light">
+
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">   
       <div class="container-fluid">
         <img src="./tesco_logo.png" alt="Logo" width="50" height="50"  class="d-inline-block align-text-top">
         <h1>Tesco's</h1> 
@@ -126,9 +129,9 @@
 
 <div class="container text-center">
     <div class="row align-items-start">
-              <div class="col">
+              <div class="col-sm-12 col-lg-6">
                 
-<img src="./fondator.jpg" width="600px" alt="Adam Diaz, fondatorul Tesco's Bar & Restaurant.">
+<img src="./fondator.jpg" class="img-fluid" alt="Adam Diaz, fondatorul Tesco's Bar & Restaurant.">
       </div>
       <div class="col">
     <div class="centrare-h1">   
@@ -146,69 +149,67 @@
 </div>
 </div>
 
-<div class="container text-center">
-    <div class="row align-items-start">
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic1.jpg" width="400px">      </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic2.jpg" width="400px">      </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic3.jpg" width="400px">      </div>
-        </div>
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic4.jpg" width="400px">      </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic5.jpg" width="400px">      </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic6.jpg" width="400px">      </div>
-        </div>
-      </div>
-    </div>
-    <div class="row align-items-end">
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic7.jpg" width="400px">      </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic8.jpg" width="400px">      </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="pics_space">
-          <div class="col">
-            <img src="./pic9.jpg" width="400px">      </div>
-        </div>
-      </div>
-    </div>
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="pic1.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Burger pe o farfurie mică albă."
+    />
+
+    <img
+      src="./pic2.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Un bucătar într-o bucătărie."
+    />
+
+    <img
+      src="./pic3.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Masă aranjată pentru un festin."
+    />
   </div>
-    
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="./pic4.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Poză cu un telefon care face poze la mâncare."
+    />
+
+    <img
+      src="./pic5.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Un grup de prieteni care își fac un selfie."
+      />
+
+      <img
+      src="./pic6.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Prieteni care se distrează."
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="./pic7.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Barista care face o cafea."
+    />
+
+    <img
+      src="./pic8.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Pahare cu băutură alcoolică."
+    />
+
+    <img
+      src="./pic9.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Doi bărbați care fac skadenberg."
+    />
+  </div>
+</div>
 
 <div class="container mt-1">
     <div class="container mb-2">
@@ -223,89 +224,126 @@
 <div class="col-12"> 
     <div class="text_galerie">
         <h2 id="meniu">Meniu</h2>
-    </div>
-    </div>
-    <div class="menu">
-    <div class="container text-center">
-        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./pic1.jpg" class="card-img-top" alt="...">
+
+      <div class="mt-0">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <img src="./avo-toast.jpg" class="card-img-top"
+                alt="Toast cu avocado pe o farfurie." />
               <div class="card-body">
-                <p class="card-text">Burger Triple Cheese</p>
+                <h3 class="card-title">Avocado Toast</h3>
+                <p class="card-text">
+                  Conține avocado, busuioc, iaurt grecesc, diverse condimente.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./avo-toast.jpg" class="card-img-top" alt="...">
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <img src="./aripioare de pui.jpg" class="card-img-top"
+                alt="Aripioare de pui pe o masă festivă." />
               <div class="card-body">
-                <p class="card-text">Avocado Toast</p>
+                <h3 class="card-title">Aripioare picante</h3>
+                <p class="card-text">Conține aripioare de pui, sos barbeque, piper și ardei iuți.</p>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./pizza1.jpg" class="card-img-top" alt="...">
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <img src="./roasted_veggies.jpg" class="card-img-top"
+                alt="Legume la cuptor pe o farfurie." />
               <div class="card-body">
-                <p class="card-text">Pizza Tesco</p>
+                <h3 class="card-title">Legume la cuptor </h3>
+                <p class="card-text">Conține cartofi, inele de ceapă, ciuperci,morcovi și vinete la cuptor.</p>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./roasted_veggies.jpg" class="card-img-top" alt="...">
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <img src="./blur-cake-chocolate.jpg" class="card-img-top"
+                alt="Prăjitură cu vanilie acoperită cu ciocolată." />
               <div class="card-body">
-                <p class="card-text">Legume la cuptor</p>
+                <h3 class="card-title">Vanilla Explosion</h3>
+                <p class="card-text"> Conține lapte, vanilie, ouă, gelatină, ciocolată, biscuiți oreo și esență de rom.</p>
               </div>
-            </div>        </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./pastaaaa.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Paste Vegane</p>
-              </div>
-            </div>        </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./aripioare de pui.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Aripioare de pui picante</p>
-              </div>
-            </div>        </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./soup.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Ciorbă de post</p>
-              </div>
-            </div>        </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./table.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Salată de vară</p>
-              </div>
-            </div>        </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./blur-cake-chocolate.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Vanilla Explosion</p>
-              </div>
-            </div>        </div>
-          <div class="col">
-            <div class="card" style="width: 13rem;">
-              <img src="./berries-blueberries-cake.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Tort de fructe de pădure</p>
-              </div>
-            </div>        
-        </div>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
-</div>   
+
+<div class="mt-0">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <img src="./berries-blueberries-cake.jpg" class="card-img-top"
+                alt="Tort din fructe de pădure." />
+              <div class="card-body">
+                <h3 class="card-title">Wood cake</h3>
+                <p class="card-text">
+                  Conține lapte, ouă, șodou, gem din extracție de fructe de pădure, fructe de pădure neprelucrate, făină de grâu tip 001.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <img src="./soup.jpg" class="card-img-top"
+                alt="Ciorbă de post într-un bol alb." />
+              <div class="card-body">
+                <h3 class="card-title">Ciorbă de post.</h3>
+                <p class="card-text">Conține morcovi, cartofi, ardei, sos de roșii, tăiței din făină integrală.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <img src="./pizza1.jpg" class="card-img-top"
+                alt="Jumătate de pizza pe o masă de lemn." />
+              <div class="card-body">
+                <h3 class="card-title">Pizza Tesco</h3>
+                <p class="card-text">Conține mozarella, salami, piept de pui, porumb.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card h-100">
+              <img src="./table.jpg" class="card-img-top"
+                alt="Salată de vară cu maioneză." />
+              <div class="card-body">
+                <h3 class="card-title">Salată de vară</h3>
+                <p class="card-text"> Conține salată verde, roșii, rucola și sos de maioneză.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+  <footer class="text-center text-white" style="background-color: #656b8a">
+    <div class="container">
+      <hr class="my-5" />
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p> Telefon: 07XXXXXXXX </p>
+            <p> E-mail: contact@tesco.com </p>
+            <p> Adresă: Strada General Traian Moșoiu 71, Cluj-Napoca 400132 </p>
+          </div>
+        </div>
+      </section>
+
+    <div>
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+    </div>
+      © 2022 Copyright:
+      <a class="text-white" href="https://www.instagram.com/emanuelpaaul"
+         >Tesco's Restaurant & Bar</a>
+    </div>
+  </footer>
+</div>
+
 
   </body>
 </html>
